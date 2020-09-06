@@ -3,7 +3,7 @@ from discord.ext import commands
 import urllib.request
 import os
 
-bot = commands.Bot(command_prefix =".", description = "yolo")
+bot = commands.Bot(command_prefix =".", description = "yolooooooooooooooooooooooooooooo")
 
 @bot.event
 async def on_ready():
