@@ -56,8 +56,6 @@ async def info(ctx, *heroes):
             heroess = "D.Va"
         if (heroes == "Sgt.hammer"):
             heroess = "Sgt."
-        print(heroes)
-        print(heroess)
 
 
         i = 0
@@ -132,4 +130,4 @@ async def info(ctx, *heroes):
 
 
 token = os.getenv('TOKEN')
-bot.run("NzUxODUxNDQxNDU0MzE3Njgw.X1PGOA.Smgr2xv_Za_2p8nlR82tLp-4M0c")
+bot.run(token)
