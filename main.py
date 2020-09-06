@@ -124,10 +124,5 @@ async def info(ctx, *heroes):
     await ctx.channel.send(embed=embed)
 
 
-
-
-
-
-
 token = os.getenv('TOKEN')
 bot.run(token)
